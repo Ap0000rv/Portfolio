@@ -33,7 +33,7 @@ export const Projects = () => {
 			title: "PortFolio",
 			description: "Personal portfolio",
 			imgUrl: portfolioThumbnail,
-			Url: "https://github.com/Ap0000rv/GoogleKeepClone-React",
+			Url: "https://portfolio-ap0000rv.vercel.app/",
 		},
 	];
 	const projects2 = [
@@ -75,22 +75,6 @@ export const Projects = () => {
 			imgUrl: projImg2,
 			Url: "https://apoorv-portfolio.netlify.app/",
 		},
-
-		// {
-		//   title: "Business Startup",
-		//   description: "Design & Development",
-		//   imgUrl: projImg1,
-		// },
-		// {
-		//   title: "Business Startup",
-		//   description: "Design & Development",
-		//   imgUrl: projImg2,
-		// },
-		// {
-		//   title: "Business Startup",
-		//   description: "Design & Development",
-		//   imgUrl: projImg3,
-		// },
 	];
 
 	return (

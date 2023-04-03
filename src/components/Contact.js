@@ -24,38 +24,14 @@ export const Contact = () => {
 		});
 	};
 
-	// const handleSubmit = async (e) => {
-	//   e.preventDefault();
-	//   setButtonText("Sending...");
-	//   let response = await fetch("http://localhost:5000/contact", {
-	//     method: "POST",
-	//     headers: {
-	//       "Content-Type": "application/json;charset=utf-8",
-	//     },
-	//     body: JSON.stringify(formDetails),
-	//   });
-	//   setButtonText("Send");
-	//   let result = await response.json();
-	//   setFormDetails(formInitialDetails);
-	//   if (result.code == 200) {
-	//     setStatus({ succes: true, message: 'Message sent successfully'});
-	//   } else {
-	//     setStatus({ succes: false, message: 'Something went wrong, please try again later.'});
-	//   }
-	// };
-
 	const handleSubmit = async (e) => {
 		e.preventDefault();
-		// console.log(e.target)
 		emailjs
 			.sendForm(
 				process.env.REACT_APP_SERVICE_ID,
-				// "service_wln5etq",
 				process.env.REACT_APP_TEMPLATE_ID,
-				// "template_f91makm",
 				e.target,
 				process.env.REACT_APP_PUBLIC_KEY
-				// "ZblZZEB6cy8zw-Y-8"
 			)
 			.then((response) => {
 				console.log(response.text);

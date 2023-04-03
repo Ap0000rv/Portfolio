@@ -13,11 +13,7 @@ export const MailchimpForm = () => {
 						status={status}
 						message={message}
 						onValidated={(formData) => {
-							// console.log(formData);
-
 							subscribe(formData);
-
-							// console.log(formData);
 						}}
 					/>
 				)}
