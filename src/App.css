@@ -528,12 +528,21 @@ nav.navbar .navbar-toggler[aria-expanded="true"] .navbar-toggler-icon {
 	border: 1px solid rgba(255, 255, 255, 0.5);
 	border-radius: 0 55px 55px 0;
 }
+
+.project1{
+	max-height: 19vw;
+    min-height: 19vw;
+    max-width:27vw;
+    min-width: 27vw;
+}
+
 .proj-imgbx {
 	position: relative;
 	border-radius: 30px;
 	overflow: hidden;
 	margin-bottom: 24px;
 	height: 35vh;
+	text-align: center;
 }
 
 @media only screen and (max-width: 800px) {
