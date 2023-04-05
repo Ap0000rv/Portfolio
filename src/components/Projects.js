@@ -10,7 +10,7 @@ import minionImgThumbnail from "../assets/img/minionImgThumbnail.jpg";
 import ecommerceThumbnail from "../assets/img/ecommerceThumbnail.jpg";
 import contactThumbnail from "../assets/img/contactThumbnail.png";
 import portfolioThumbnail from "../assets/img/portfolioThumbnail.png";
-import gitHubThumbnail from "../assets/img/gitHubThumbnail.jpg";
+import chatAppThumbnail from "../assets/img/chatAppThumbnail.png";
 import colorSharp2 from "../assets/img/color-sharp2.png";
 import "animate.css";
 import TrackVisibility from "react-on-screen";
@@ -64,10 +64,10 @@ export const Projects = () => {
 			Url: "https://github.com/Ap0000rv/Contact-App",
 		},
 		{
-			title: "GitHub",
-			description: "Visit my GitHub",
-			imgUrl: gitHubThumbnail,
-			Url: "https://github.com/Ap0000rv",
+			title: "Chat App",
+			description: "chatting app",
+			imgUrl: chatAppThumbnail,
+			Url: "https://github.com/Ap0000rv/chatApp",
 		},
 		{
 			title: "PortFolio",
