@@ -536,6 +536,15 @@ nav.navbar .navbar-toggler[aria-expanded="true"] .navbar-toggler-icon {
     min-width: 27vw;
 }
 
+@media only screen and (max-width:800px) {
+	.project1{
+	max-height: 50vw;
+    min-height: 50vw;
+    max-width: 90vw;
+    min-width: 90vw;
+	}
+}
+
 .proj-imgbx {
 	position: relative;
 	border-radius: 30px;
