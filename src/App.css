@@ -540,8 +540,8 @@ nav.navbar .navbar-toggler[aria-expanded="true"] .navbar-toggler-icon {
 	.project1{
 	max-height: 50vw;
     min-height: 50vw;
-    max-width: 90vw;
-    min-width: 90vw;
+    max-width: 555px;
+    min-width: 125px;
 	}
 }
 
